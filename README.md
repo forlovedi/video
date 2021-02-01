@@ -22,7 +22,7 @@ https://api.github.com/repos/wozuinbs/video/contents/mini
 https://api.github.com/repos/wozuinbs/video/contents/big
 ```
 
-*big为 `m3u8 `视频，一个目录一个文件，索引为 `*/index.m3u8`*
+   *big为 `m3u8 `视频，一个目录一个文件，索引为 `*/index.m3u8`*
 
 ## 已开启 jsDelivr
 
