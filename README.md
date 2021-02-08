@@ -1,6 +1,46 @@
 # VIDEO
 
-在线观看：http://meinu.ml/
+##### 在线观看：http://meinu.ml/
+
+
+
+## GitHub API  获取仓库目录
+
+#####  基地址：`https://api.github.com`
+
+### 默认前1k个文件
+
+```
+GET /repos/{owner}/{repo}/contents/{path}
+
+owner：所有者
+repo：仓库名字
+path：路劲
+```
+
+### 全部文件
+
+```
+GET /repos/{owner}/{repo}/git/trees/{tree_sha}
+
+owner：所有者
+repo：仓库名字
+tree_sha：目录的sha值,可以通过上面的接口拿到
+```
+
+
+
+## jsDelivr CDN加载仓库文件
+
+```
+https://cdn.jsdelivr.net/gh/{username}/{仓库名字}/{path}
+```
+
+```
+https://cdn.jsdelivr.net/gh/wozuinbs/video/....
+```
+
+
 
 ## 文件目录
 
@@ -14,6 +54,10 @@ https://api.github.com/repos/wozuinbs/video/contents
 
 ```
 https://api.github.com/repos/wozuinbs/video/contents/mini
+```
+
+```
+https://api.github.com/repos/wozuinbs/video/git/trees/30450e11171827542c972cf1568369b6f9a2ea6b
 ```
 
 ```
@@ -44,18 +88,7 @@ https://api.github.com/repos/wozuinbs/video/contents/m3u8/index
 https://cdn.jsdelivr.net/gh/wozuinbs/video/m3u8/index/{fileName}
 ```
 
-## 已开启 jsDelivr
-
-```
-https://cdn.jsdelivr.net/gh/{username}/{仓库名字}/{path}
-```
-
-```
-https://cdn.jsdelivr.net/gh/wozuinbs/video/....
-```
-
-
-
 
 
 **数据来自互联网抓取，如有侵犯请提交  `lssues`**
+
