@@ -1,6 +1,6 @@
 # VIDEO
 
-##### 在线观看：http://meinu.ml/  https://wozuinbs.github.io/video/
+##### 在线观看：http://meinu.ml/          https://wozuinbs.github.io/video/
 
 
 
